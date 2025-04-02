@@ -1,0 +1,48 @@
+add_executable(go2_trajectory_follow go2_trajectory_follow.cpp)
+target_link_libraries(go2_trajectory_follow unitree_sdk2)
+
+add_executable(go2_sport_client go2_sport_client.cpp)
+target_link_libraries(go2_sport_client unitree_sdk2)
+
+add_executable(go2_low_level go2_low_level.cpp)
+target_link_libraries(go2_low_level unitree_sdk2)
+
+add_executable(go2_stand_example go2_stand_example.cpp)
+target_link_libraries(go2_stand_example unitree_sdk2)
+
+
+add_executable(go2_robot_state_client go2_robot_state_client.cpp)
+target_link_libraries(go2_robot_state_client unitree_sdk2)
+
+add_executable(go2_video_client go2_video_client.cpp)
+target_link_libraries(go2_video_client unitree_sdk2)
+
+add_executable(go2_vui_client go2_vui_client.cpp)
+target_link_libraries(go2_vui_client unitree_sdk2)
+
+add_executable(go2_getinfo go2_getinfo.cpp)
+target_link_libraries(go2_getinfo unitree_sdk2)
+
+add_executable(go2_Movetopose go2_Movetopose.cpp)
+target_link_libraries(go2_Movetopose unitree_sdk2)
+
+add_executable(go2_test go2_test.cpp)
+target_link_libraries(go2_test unitree_sdk2)
+
+add_executable(go2_getcontrol go2_getcontrol.cpp)
+target_link_libraries(go2_getcontrol unitree_sdk2)
+
+add_executable(go2_go_around go2_go_around.cpp)
+target_link_libraries(go2_go_around unitree_sdk2)
+
+add_executable(go2_police1 go2_police1.cpp)
+target_link_libraries(go2_police1 unitree_sdk2)
+
+add_executable(go2_police1v1 go2_police1v1.cpp)
+target_link_libraries(go2_police1v1 unitree_sdk2)
+
+add_executable(go2_police1v2 go2_police1v2.cpp)
+target_link_libraries(go2_police1v2 unitree_sdk2)
+
+add_executable(go2_police1_realsense go2_police1_realsense.cpp)
+target_link_libraries(go2_police1_realsense unitree_sdk2)
